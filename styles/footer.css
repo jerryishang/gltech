@@ -1,0 +1,16 @@
+footer {
+	background: -moz-linear-gradient(180deg, black, gray, black);
+	background: -webkit-linear-gradient(180deg, black, gray, black);
+	background: -ms-linear-gradient(180deg, black, gray, black);
+	background: -o-linear-gradient(180deg, black, gray, black);
+	background: linear-gradient(180deg, black, gray, black);
+	height: 75px;
+	width: 1024px;	/*z-index: 10;*/
+	/*position: absolute;
+	bottom: 10px;
+	*/
+	position: relative;
+	top: 100px;
+	box-shadow: 5px 5px 5px 2px gray inset;
+	text-shadow: 2px 2px 3px gray;
+}

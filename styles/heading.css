@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	background-image: url(../images/bg_header.png);
+	height: 157px;
+	width: 1024px;
+	
+}
+header ul {
+	list-style-type: none;
+}
+header ul li {
+	display: inline;
+	margin-right: 30px;	
+}

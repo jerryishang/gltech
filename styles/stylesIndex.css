@@ -1,0 +1,101 @@
+@import "header.css";
+@import "nav.css";
+@import "font.css";
+@import "footer.css";
+
+.container {
+	background-image: url(../images/bg_container.png);
+	margin-right: auto;
+	margin-left: auto;
+	width: 1024px;
+	height: 1700px;
+	box-shadow: 0 0 10px 5px blue;
+}
+main {
+	background-color: blue;
+	width: 1000px;
+	height: 1500px;
+	position: relative;
+	top: 170px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+#slider {
+	/*
+	
+	margin-bottom: 20px;
+	*/
+	position: absolute;
+	top: 20px;
+	height: 713px;
+	width: 950px;
+	left: 25px;
+	overflow: hidden;
+}
+#about {
+	position: absolute;
+	top: 750px;
+}
+
+
+
+
+.container main #about a .hidden {
+	visibility: hidden;
+	
+}
+.container main #about a:hover .hidden {
+	visibility: visible;
+}
+#about ul {
+	list-style-type: none;
+}
+
+#li1, #li2, #li3, #li4, #li5, #li6 {
+	height: 100px;
+	width: 400px;
+	border: 3px solid black;
+	border-top-right-radius: 30px;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #933;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	box-shadow: 0 0 10px 5px black;
+}
+
+#li1, #li2 {
+	background: -moz-repeating-linear-gradient(left top, gray 20%, black 30%, white 50%);
+	background: -webkit-repeating-linear-gradient(left top, gray 20%, black 30%, white 50%);
+	background: -ms-repeating-linear-gradient(left top, gray 20%, black 30%, white 50%);
+	background: -o-repeating-linear-gradient(left top, gray 20%, black 30%, white 50%);
+	background: repeating-linear-gradient(left top, gray 20%, black 30%, white 50%);
+}
+
+#li1:hover, #li2:hover{
+	-webkit-transform: skew(10deg, 5deg);
+  	-moz-transform: skew(10deg, 5deg);
+ 	-o-transform: skew(10deg, 5deg);
+  	-ms-transform: skew(10deg, 5deg);
+}
+
+#li3, #li4 {
+	background: -moz-radial-gradient(white 20%, gray 30%, black 50%);
+	background: -webkit-radial-gradient(white 20%, gray 30%, black 50%);
+	background: -ms-radial-gradient(white 20%, gray 30%, black 50%);
+	background: -o-radial-gradient(white 20%, gray 30%, black 50%);
+	background: radial-gradient(white 20%, gray 30%, black 50%);
+}
+
+#li5, #li6 {
+	background: -moz-linear-gradient(45deg, gray, white, gray);
+	background: -webkit-linear-gradient(45deg, gray, white, gray);
+	background: -ms-linear-gradient(45deg, gray, white, gray);
+	background: -o-linear-gradient(45deg, gray, white, gray);
+	background: linear-gradient(45deg, gray, white, gray);
+}
+
+

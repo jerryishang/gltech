@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "header.css";
+@import "nav.css";
+@import "font.css";
+@import "footer.css";
+
+.container {
+	background-image: url(../images/bg_container.png);
+	margin-right: auto;
+	margin-left: auto;
+	width: 1024px;
+	height: 2000px;
+}
+main {
+	background-color: yellow;
+	width: 1000px;
+	height: 1800px;
+	position: relative;
+	top: 170px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+#about {
+	/*
+	
+	margin-bottom: 20px;
+	*/
+	position: absolute;
+	top: 20px;
+	height: 713px;
+	width: 950px;
+	left: 25px;
+	
+}
+
+
+
+.container main #about a .hidden {
+	visibility: hidden;
+	
+}
+.container main #about a:hover .hidden {
+	visibility: visible;
+}

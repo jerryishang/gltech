@@ -1,0 +1,17 @@
+header {
+	background-image: url(../images/bg_header.png);
+	height: 157px;
+	width: 1024px;
+	position: absolute;
+	overflow: hidden;
+	display: inline;
+}
+header ul {
+	list-style-type: none;
+	height: 157px;
+	width: 1024px;
+	
+}
+header ul li {
+	display: inline;
+}
